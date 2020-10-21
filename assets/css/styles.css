@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+display:wght@400;500;600;700&family=Roboto&display=swap');
 
-/*      Headings and subtext      */
+/*      Headings and rules    */
 h1,
 h2,
 h3,
@@ -19,12 +19,31 @@ p {
 .jumbotron {
     margin-bottom: 2rem;
     height: 150px;
-    border-bottom: 1px solid gold;
     background-color: transparent;
+    display: flexbox;
+    padding-top: 300px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
+.intro-rule{
+    width: 40%;
+}
 
-/*      Introduction Container       */
+.intro-color-rule{
+    background-color: rgb(168, 131, 37);
+    border: 5px solid rgb(168, 131, 37);
+
+}
+
+.intro-heading-subtext {
+    text-align: center;
+    color: #fafafa;
+    margin: 60px 30px 0px 30px;
+}
+
+    /*      Introduction Container       */
 .intro-container{
     height: 100vh;
 
@@ -33,8 +52,20 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: 0;
 }
 
+/*.abilities-container{
+    height: 100vh;
+
+    background: url("../images/project-lucian-45.jpg") no-repeat top left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 900px;
+}
+*/
 
 
 
