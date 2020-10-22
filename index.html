@@ -6,6 +6,7 @@
     <title>Lucian Champion Guide</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -15,19 +16,40 @@
 </head>
 <body>
 <!-- Navbar-->
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <ul class="navbar-nav mr-2">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="abilities.html">Abilities</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="combos.html">Combos</a></li>
-            </ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Champ Guides</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="abilities.html">Abilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="combos.html">Combos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More Guides!
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Samira</a>
+          <a class="dropdown-item" href="#">Vayne</a>
+          <a class="dropdown-item" href="#">Xayah</a>
+        </div>
+      </li>
+    </ul>
+  </div>
 </nav>
 <!-- Hero Image and heading-->
 <div class="jumbotron intro-container">
     <h1 class="display-4">
         Lucian Champion Guide
     </h1>
-    <hr class="my-4">
     <p class="lead">
         Welcome to my guide on the League of Legends Champion: <span><i>Lucian! The Purifier</i></span>
         <br> 
@@ -76,6 +98,15 @@ var mySwiper = new Swiper('.swiper-container', {
 })
 </script>
 <footer>
+    <div class="container-fluid footer-container bg-dark">
+        <div class="footer-left">
+            <p>FuthiMhl<i class="far fa-copyright"></i></p>
+        </div>  
+        <div class="footer-right">
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>

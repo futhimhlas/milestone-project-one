@@ -9,57 +9,79 @@
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
 <body>
+<div class="abilities-container">
 <!-- Navbar-->
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <ul class="navbar-nav mr-2">
-            <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="active nav-item mr-2"><a class="nav-link" href="abilities.html">Abilities</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="combos.html">Combos</a></li>
-        </ul>
-</nav>
-<!-- Heading and text-->
-<div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-10 offset-lg-1">
-        <h2 class="test">Lucian's Abilities</h2>
-        <p class="heading-subtext">Every champion in League of Legends has a unique passive, 3 basic abilities and 1 ultimate ability. In this guide basic abilities
-            are bound to Q, W and E whilst Lucian's ultimate ability is bound to R. As Lucian is marksman he can normally fill either the mid or adc role. He splits 
-            from general adc philosophy as to generate maximum DPS with him, players will have to weave his spells in between his passive - Lightslinger. </p>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-10 offset-1">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-2">
-                            <img src="assets/images/passive-lucian.JPG" alt="Passive ability of Lucian">
-                            <h3 class="test">Lightslinger</h3>
-                            <p>After casting an ability, Lucian's next auto-attack is a double shot</p>
-                        </div>
-                        <div class="col-sm-12 col-md-2">
-                            <img src="assets/images/q-lucian.JPG" alt="Lucian's 1st basic ability">
-                            <h3>Piercing Light</h3>
-                            <p>Cast on a target within Lucian's auto attack-range, he fires a bolt of light which pierces his target and hits those a short distance behind it</p>
-                        </div>
-                        <div class="col-sm-12 col-md-2">
-                            <img class="abil-img" src="assets/images/w-lucian.JPG" alt="Lucian's 1st basic ability">
-                            <h3>Ardent Blaze</h3>
-                            <p>After a brief channel, Lucian fires a cross shaped projectile that expands at the end of its range. Enemies hit by this are marked with light and if Lucian attacks
-                            an enemy marked with light he will momentarily gain a small amount of movement speed (Great for kiting)</p>
-                        </div>
-                        <div class="col-sm-12 col-md-2">
-                            <img class="abil-img" src="assets/images/e-lucian.JPG" alt="Lucian's 1st basic ability">
-                            <h3>Relentless Pursuit</h3>
-                            <p>Lucian dashes towards the cursor upon activation of Relentless Pursuit. The cooldown of this ability is lowered by 2 seconds for 
-                            every shot of his double shot landed whilst this ability is on cooldown</p>
-                        </div>
-                        <div class="col-sm-12 col-md-2">
-                            <img class="abil-img" src="assets/images/r-lucian.JPG" alt="Lucian's 1st basic ability">
-                            <h3>The Culling</h3>
-                            <p>Lucian fully unleashes his weapons, firing continously in a straight line, damaging the first target hit in his extended range. His direction of attack is fixed whilst 
-                            channeling this ability.</p>
-                        </div>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Champ Guides</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown1" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown1">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="abilities.html">Abilities</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="combos.html">Combos</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More Guides!
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+            <a class="dropdown-item" href="#">Samira</a>
+            <a class="dropdown-item" href="#">Vayne</a>
+            <a class="dropdown-item" href="#">Xayah</a>
             </div>
-        </section>
+        </li>
+        </ul>
+    </div>
+    </nav>
+<!-- Heading and text-->
+    <div class="row">
+        <div class="offset-1 col-10">
+            <h2 class="abilities-main-heading">Lucian's Abilities</h2>
+        </div>
+    </div>
+<!-- Page Content-->
+    <div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-5 ability-standout">
+             <img src="assets/images/passive-lucian.JPG" alt="Passive ability of Lucian" class="rounded-circle" height="60">
+                        <h3>Passive - Lightslinger</h3>
+                        <p>After casting an ability, Lucian's next auto-attack is a double shot</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-2 ability-standard">
+            <img src="assets/images/q-lucian.JPG" alt="Lucian's 1st basic ability" class="rounded-circle" height="55">
+                        <h3>Q - Piercing Light</h3>
+                        <p>Cast on a target within Lucian's auto attack-range, he fires a bolt of light which pierces his target and hits those a short distance behind it</p>
+        </div>
+        <div class="offset-sm-1 col-sm-10 col-md-2 ability-standard">
+            <img src="assets/images/w-lucian.JPG" alt="Lucian's 1st basic ability" class="rounded-circle" height="55">
+                    <h3>W - Ardent Blaze</h3>
+                    <p>After a brief channel, Lucian fires a cross shaped projectile that expands at the end of its range. Enemies hit by this are marked with light and if Lucian attacks
+                    an enemy marked with light he will momentarily gain a small amount of movement speed (Great for kiting)</p>
+        </div>
+        <div class="offset-sm-1 col-sm-10 col-md-2 ability-standard">
+            <img src="assets/images/e-lucian.JPG" alt="Lucian's 1st basic ability" class="rounded-circle" height="55">
+                    <h3>E - Relentless Pursuit</h3>
+                    <p>Lucian dashes towards the cursor upon activation of Relentless Pursuit. The cooldown of this ability is lowered by 2 seconds for 
+                    every shot of his double shot landed whilst this ability is on cooldown</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-5 ability-standout ability-standard">
+            <img src="assets/images/r-lucian.JPG" alt="Lucian's 1st basic ability" class="rounded-circle" height="60">
+                    <h3>R - The Culling</h3>
+                    <p>Lucian fully unleashes his weapons, firing continously in a straight line, damaging the first target hit in his extended range. His direction of attack is fixed whilst 
+                    channeling this ability.</p>
+        </div>
+    </div>
     </div>
 </div>
 </body>
