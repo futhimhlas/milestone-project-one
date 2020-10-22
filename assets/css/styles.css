@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+display:wght@400;500;600;700&family=Roboto&display=swap');
 
+/*      Navbar      */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 /*      Headings and rules    */
 h1,
 h2,
@@ -16,34 +24,6 @@ p {
     font-weight: 400;
 }
 
-.jumbotron {
-    margin-bottom: 2rem;
-    height: 150px;
-    background-color: transparent;
-    display: flexbox;
-    padding-top: 300px;
-    padding-bottom: 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.intro-rule{
-    width: 40%;
-}
-
-.intro-color-rule{
-    background-color: rgb(168, 131, 37);
-    border: 5px solid rgb(168, 131, 37);
-
-}
-
-.intro-heading-subtext {
-    text-align: center;
-    color: #fafafa;
-    margin: 60px 30px 0px 30px;
-}
-
-    /*      Introduction Container       */
 .intro-container{
     height: 100vh;
 
@@ -54,6 +34,47 @@ p {
     background-size: cover;
     z-index: 0;
 }
+
+
+.jumbotron{
+    padding-top: 150px;
+    font-family: "Playfair Display", serif;
+    color: #fafafa;
+}
+
+.display-4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom:5px solid rgb(168, 131, 37);
+}
+
+.lead{
+    text-align: center;
+    margin: 30px 15px;
+}
+
+.swiper-container {
+    display: flex;
+    margin-top: 75px;
+    width: 450px;
+    height: 300px;
+}
+.slide-one{
+    background:url("../images/400lucy.jpg")  no-repeat bottom right scroll;
+    background-size: cover;
+}
+
+.swiper-slide a{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #fafafa;
+    padding: 2px;
+    border: 3px solid rgb(168, 131, 37);
+}
+
+
+
+/*      Introduction Container       */
 
 /*.abilities-container{
     height: 100vh;
@@ -87,3 +108,23 @@ p {
 
 
 /*      Footer      */
+
+
+
+
+/*      Media queries  
+.intro-rule{
+    width: 40%;
+}
+
+.intro-color-rule{
+    background-color: rgb(168, 131, 37);
+    border: 5px solid rgb(168, 131, 37);
+
+}
+
+.intro-heading-subtext {
+    text-align: center;
+    color: #fafafa;
+    margin: 30px auto;
+     */
