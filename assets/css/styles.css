@@ -126,3 +126,13 @@ p {
     border: 1px solid rgb(168, 131, 37);
     padding: 3px;
 }
+.btn-primary{
+    background-color:#01161E;
+    border-color: #EFF6E0;
+    color: #EFF6E0;
+}
+.btn-primary:hover{
+    background-color:#EFF6E0;
+    border-color: #01161E;
+    color: #01161E;
+}
