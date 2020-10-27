@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+display:wght@400;500;600;700&family=Roboto&display=swap');
 body{
     color: #fafafa;
+    background: #01161e;
+    font-size: 16px;
+
 }
 /*      Navbar      */
 .navbar{
@@ -8,18 +11,22 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 45px;
-}
-
-.navbar-color{
-    background: #343a40;
-    border-bottom: 1px solid rgb(168, 131, 37);
 }
 
 .navar-nav a{
     font-family: "Roboto", sans-serif;
     text-decoration: none;
 }
+
+.nav-color{
+    background-color: #0B0A11;
+}
+
+.active{
+    color: rgb(200, 25, 235);
+}
+
+
 
 /*      Headings    */
 h1,
@@ -38,7 +45,7 @@ p {
 }
 
 .jumbotron{
-    padding-top: 100px;
+    padding-top: 5em;
     font-family: "Playfair Display", serif;
     color: #fafafa;
 }
@@ -52,11 +59,12 @@ p {
 
 .lead{
     text-align: center;
-    margin: 30px 15px;
+    margin: 30px 60px;
 }
 
 .abilities-main-heading{
-    margin-top: 150px;
+    display: block;
+    margin-top: 3em;
     border-bottom: 5px solid rgb(168, 131, 37);
 }
 
